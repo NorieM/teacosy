@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+nav {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.mission {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-image: url("./images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  height: 700px;
+  width: 1200px;
+}
+
+featured {
+  display: flex;
+  flex-flow: row wrap;
+  align-items:flex-start;
+  
+}
+.featured img{
+  height: 200px;
+}
+
+.locations {
+  background-position: center center;
+  background-image: url("./images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  height: 500px;
+  width: 1200px;
+}
+
+.sites {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.site {
+  width: 300px;
+}
